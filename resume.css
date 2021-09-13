@@ -1,0 +1,36 @@
+em {
+    size 16px;
+}
+
+body{
+   font-family: filson-pro, sans-serif;
+   margin: 0px;
+}
+
+#Header {
+    background-color :#C89933;
+    color: white;
+}
+
+.background_tile {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.test {
+    display: block;
+}
+.subtext {
+    margin-top: -1.67em;
+}
+.sidebar {
+    z-index: 1;
+    height: 100%;
+    width: 5%;
+    display: block;
+}
+.content {
+    z-index: 0;
+}
