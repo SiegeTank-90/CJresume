@@ -1,5 +1,5 @@
 em {
-    size 16px;
+    size: 16px;
 }
 
 body{
@@ -8,8 +8,17 @@ body{
 }
 
 #Header {
-    background-color :#C89933;
+    background-color:#C89933;
     color: white;
+}
+
+#Achievements {
+    background-color:#C89933;
+}
+
+#WorkExperience{
+    background-color:pink;
+
 }
 
 .background_tile {
@@ -17,20 +26,35 @@ body{
     padding-right: 10%;
     padding-bottom: 5%;
     padding-top: 5%;
+    
+}
+.icons {
+    width: 100px;
+    margin-top: 100px;
+
 }
 
 .test {
     display: block;
 }
-.subtext {
+.headerSubtext {
     margin-top: -1.67em;
 }
+.subtext {
+    font-weight: 100;
+    margin-top: -2.5em;
+}
 .sidebar {
-    z-index: 1;
+    z-index: 3;
     height: 100%;
     width: 5%;
     display: block;
+    position: absolute;
+    padding-left: 5%;
+    background-color: transparent;
+
 }
 .content {
-    z-index: 0;
+    z-index: -1;
+    position: relative;
 }
