@@ -1,28 +1,49 @@
 em {
-    size: 16px;
+    font-size: 24px;
 }
 
 body{
    font-family: filson-pro, sans-serif;
    margin: 0px;
+   font-size: 1em;
+}
+.content {
+    z-index: 0;
+    position: flex;
 }
 
 #Header {
     background-color:#C89933;
     color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: left;
 }
 
 #Achievements {
-    background-color:#C89933;
+    background-color:rgba(236, 115, 87, 0.25);
+    color: #C89933;
+    display: flex;
+    justify-content: left;
+    
 }
 
 #WorkExperience{
-    background-color:pink;
+    background-color:#EC7357;
+    color: white;
+    display: flex;
+    justify-content: left;
 
 }
 
+#Profile {
+    color: #EC7357;
+    position: relative;
+
+}   
+
 .background_tile {
-    padding-left: 10%;
+    padding-left: 20%;
     padding-right: 10%;
     padding-bottom: 5%;
     padding-top: 5%;
@@ -30,31 +51,80 @@ body{
 }
 .icons {
     width: 100px;
-    margin-top: 100px;
-
+    z-index: 2;
+    margin-left: -250px;
 }
 
-.test {
-    display: block;
+.profileimg {
+    padding-top: 25px;
+    
 }
+
+.sectionText {
+    display: flex;
+    padding: 50px;
+}
+
+.faceimg {
+    width: 200px;
+    padding-top: 25px;
+    flex: auto;
+}
+
+.officeimg {
+    padding-left: 50px;
+    
+}
+
+.medalimg {
+    padding-left: 40px;
+    top :0;
+}
+
+.Header {
+    margin: 0;
+    margin-bottom: -30px;
+    
+}
+
 .headerSubtext {
-    margin-top: -1.67em;
+   
+    font-size: .75rem;
 }
+
+.contactSubtext {
+    font-size: .75rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5.5%;
+}
+
 .subtext {
     font-weight: 100;
     margin-top: -2.5em;
+
 }
 .sidebar {
-    z-index: 3;
-    height: 100%;
-    width: 5%;
-    display: block;
-    position: absolute;
-    padding-left: 5%;
+    z-index: 1;
+    left: 0px;
+    margin-top: -250px;
+    height: 1%;
+    position: -webkit-sticky;
+    position: sticky;
     background-color: transparent;
 
 }
-.content {
-    z-index: -1;
+
+.contentContainer {
+    display: flex;
+}
+
+
+.tie {
+    width: 185px;
+    z-index: 2;
     position: relative;
+    left: -21.5%;
+
 }
