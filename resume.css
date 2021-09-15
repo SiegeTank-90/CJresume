@@ -125,6 +125,32 @@ body{
     width: 185px;
     z-index: 2;
     position: relative;
-    left: -21.5%;
+    left: -250px;
 
+
+}
+
+.skills {
+ 
+    
+}
+
+
+.group{
+    background-color: rgba(0, 128, 128, 0.308);
+}
+
+ul {
+    list-style: none;
+    width: auto;
+}
+
+.skills td {
+    font-size: 16px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+
+}
+.stars {
+    max-width: 15px;
 }
